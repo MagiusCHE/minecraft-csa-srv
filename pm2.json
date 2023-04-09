@@ -2,7 +2,7 @@
     "apps": [
         {
             "name": "mcsasrv",
-            "script": "skinserver",
+            "script": "skinserver.js",
             "cwd": ".",
             "log_file": "./files/logs/combined.log",
             "error_file": "./files/logs/srderr.log",
