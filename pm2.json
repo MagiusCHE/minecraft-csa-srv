@@ -1,0 +1,17 @@
+{
+    "apps": [
+        {
+            "name": "mcsasrv",
+            "script": "skinserver",
+            "cwd": ".",
+            "log_file": "./files/logs/combined.log",
+            "error_file": "./files/logs/srderr.log",
+            "combine_logs": true,
+            "pid": "./files/pids/server.pid",
+            "instances": "1",
+            "mode": "cluster",
+            "comment": "Enable -dbg * by namespaces to activate debug log. See: https://www.npmjs.com/package/debug",
+            "args": "127.0.0.1 8086"
+        }
+    ]
+}
